@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <style>
+    .vertical-center {
+      margin: 0;
+      position: relative;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+  </style>
+  <title>Juan J. Gª Melgar</title>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+  <script type="text/javascript">
+    var arrLang = {
+      'en': {
+        'home': 'Home',
+        'languajes': 'Languajes',
+        'titulo_ingles': 'B1 ENGLISH Oficial Language School Certificate',
+        'aboutText1': 'Welcome, my name is Juanjo! However, on the Internet, I am known as tarsot.',
+        'aboutText2': 'I have a diverse background, but my passion and dedication is to the world of computers. Specifically, in areas related to networks and cyber security, in which I have been lucky enough to specialize.',
+        'aboutText3': 'The reason for showing this page, is to make known my academic development and/or professional experience, citing some projects I am working on, as well as my goals and aspirations.',
+        'aboutText4': ' I was born in Aviles, Principality of Asturias, although I currently reside in the city of the Alhambra.',
+                 
+        'contact': 'Contact Us',
+        'desc': 'This is my description',
+        'about': 'About',
+        'certs': 'Certifications',
+        'certs1': 'Certifications & Aptitudes',
+        'proyectos': 'Projects',
+        'interests': 'Interests',
+        'direccion': 'Granada, Spain',
+        'correo': 'tarsot@gmail.com',
+
+
+        'exp1': 'Experience',
+
+        'exp1.1': 'Full stack web-app developer',
+        'exp1.2': 'Universidad de Jaén',
+        'exp1.date': 'March 2019 - October 2019',
+        'exp1.4': 'Full stack web-app developer in  “Universidad de Jaén” for 6 months (scholarship).',
+
+        'exp2.1': 'Beca Icaro como desarrollador full stack',
+        'exp2.2': 'Deloitte',
+        'exp2.date': 'Junio 2020 - Actual',
+        'exp2.4': 'Contrato de 6 meses como desarrollador full stack de' +
+          ' aplicación web para el seguimiento del aprendizaje activo de estudios universitarios.',
+
+        'education': 'Education',
+
+        'edu1.1': 'Informatic Engineering Degree',
+        'edu1.2': 'University of Granada',
+        'edu1.date': 'September 2017 - Present',
+        'edu1.4': 'Average Grade: Remarkable.',
+
+        'edu2.1': 'Master in computer engineering and networks',
+        'edu2.2': 'University of Granada',
+        'edu2.date': 'September 2010 - July 2011',
+        'edu2.4': 'Average Grade: Remarkable.',
+
+        'edu3.1': 'Master in Cybersecurity',
+        'edu3.2': 'University of Granada',
+        'edu3.date': 'October 2019 - July 2020',
+        'edu3.4': 'Average Grade: Remarkable.',
+
+
+        'cert1.1': 'B1 ENGLISH Oficial Language School Certificate',
+        'cert1.2': '',
+        'cert1.date': 'Course 2017',
+        'cert1.4': '',
+
+        'cert2.1': 'Professional Website Design (150H)',
+        'cert2.2': '',
+        'cert2.date': 'March - June 2006',
+        'cert2.4': '',
+
+        'cert3.1': 'Administration and Operation of TCP/IP Networks under Linux (50H)',
+        'cert3.2': '',
+        'cert3.date': 'Junio - Julio 2009',
+        'cert3.4': '',
+
+        'cert4.1': 'Course of Development of Mobile APPs (40H) ',
+        'cert4.2': '',
+        'cert4.date': 'July 2017',
+        'cert4.4': '',
+
+
+        'sk1': '  With desire to learn and discover new knowledge',
+        'sk2': '  Skilled against adversity problems',
+        'sk3': '  Competitive and creative',
+        'sk4': '  Great ease of adapting to different environments',
+        'sk5': '  Pentesting',
+        'sk6': '  CyberSec World',
+
+
+        'af1': 'Beyond being interested in cybersecurity and new technologies, my hobbies include all kinds of outside activities such as sports in nature and social gatherings. Being a happy and sociable person this is what I enjoy most, although I also like to stay at home watching movies or series that interests me and makes me disconnect from workaday.',
+        'af2': 'Going deeper into the field of cybersecurity, and being restless and curious as I am, among my hobbies are to investigate more about ethical hacking and enjoy different conferences both online and in person to which I have gone whenever I had the opportunity, as well as research on pentesting and network security.',
+
+
+        'pro1.1': 'Tool for track covering in pentesting processes',
+        'pro1.2': 'Implementation of a tool that allows automatic and simple execution of track covering techniques in a pentesting process.',
+        'pro1.sitio': 'Universidad de Granada',
+        'pro1.date': 'Jan 2020 - June 2020',
+        'pro1.4': '',
+        'pro2.5': 'Technologies: Powershell',
+
+
+        'pro2.1': 'WEB APPLICATION FOR MONITORING ACTIVE LEARNING IN COURSES OF UNIVERSITY education ',
+        'pro2.2': 'Development of a web application with the objective of individually monitoring ' +
+          'the use of active learning techniques by students who voluntarily wish to participate in said program in ' +
+          'some subjects of the degree.',
+        'pro2.sitio': 'Universidad de Jaén',
+        'pro2.date': 'November 2018 - June 2019',
+        'pro2.4': 'The application will offer three different profiles: student, teacher and admin. The first may access a set ' +
+          'of specific resources, the use of which will be monitored. The second will be provided both detailed and ' +
+          'aggregated information, numerically and visually, of such use by participating students. The third one ' +
+          'will have the control of the subjects, units, users, logs and every important part of the administration in ' +
+          'the web.',
+        'pro2.5': 'Technologies: HTML5 | CSS3 | JavaScript | Ajax | MySQL | Bootstrap',
+
+
+        'pro3.1': 'HERRAMIENTA PARA OCULTACIÓN DE HUELLAS EN PROCESOS DE PENTESTING',
+        'pro3.2': 'Implementación de una herramienta que permite de forma automática y sencilla ejecutar técnicas de ocultación de huellas en un proceso de pentesting.',
+        'pro3.sitio': 'Universidad de Granada',
+        'pro3.date': 'Enero 2020 - Junio 2020',
+        'pro3.4': '',
+
+        'pro4.1': 'HERRAMIENTA PARA OCULTACIÓN DE HUELLAS EN PROCESOS DE PENTESTING',
+        'pro4.2': 'Implementación de una herramienta que permite de forma automática y sencilla ejecutar técnicas de ocultación de huellas en un proceso de pentesting.',
+        'pro4.sitio': 'Universidad de Granada',
+        'pro4.date': 'Enero 2020 - Junio 2020',
+        'pro4.4': '',
+
+        'pro5.1': 'HERRAMIENTA PARA OCULTACIÓN DE HUELLAS EN PROCESOS DE PENTESTING',
+        'pro5.2': 'Implementación de una herramienta que permite de forma automática y sencilla ejecutar técnicas de ocultación de huellas en un proceso de pentesting.',
+        'pro5.sitio': 'Universidad de Granada',
+        'pro5.date': 'Enero 2020 - Junio 2020',
+        'pro5.4': '',
+
+        'pro6.1': 'HERRAMIENTA PARA OCULTACIÓN DE HUELLAS EN PROCESOS DE PENTESTING',
+        'pro6.2': 'Implementación de una herramienta que permite de forma automática y sencilla ejecutar técnicas de ocultación de huellas en un proceso de pentesting.',
+        'pro6.sitio': 'Universidad de Granada',
+        'pro6.date': 'Enero 2020 - Junio 2020',
+        'pro6.4': ''
+
+      },
+      'es': {
+        'home': 'Casa',
+        'languajes': "Lenguajes",
+        'titulo_ingles': "Certificado B1 en Inglés. Escuela Oficial de Idiomas de Granada.",
+
+        'aboutText1': '¡Bienvenid@, soy Juanjo! No obstante, en La Red, se me conoce como tarsot.',
+        'aboutText2': 'De formación diversa, mas mi pasión y dedicación es para el mundo de la informática.' +
+          ' Específicamente, en  áreas relacionadas con redes y ciberseguridad, en las que he tenido la suerte de especializarme.',
+        'aboutText3': 'El motivo de mostrar esta página, es para dar a conocer mi desarrollo académico y experiencia profesional' +
+          ' citando algunos proyectos, en los que estoy trabajando, así como mis metas y aspiraciones.',
+        'aboutText4': 'Natural de Avilés, Principado de Asturias, aunque actualmente resido en la ciudad de la Alhambra.',
+        
+        'contact': 'Contacto',
+        'desc': 'Descripción',
+        'about': 'Sobre mí',
+        'certs': 'Certificaciones',
+        'certs1': 'Certificaciones & Aptitudes',
+
+        'proyectos': 'Proyectos',
+        'interests': 'Aficiones',
+        'direccion': 'Granada, España ',
+        'correo': 'tarsot@gmail.com',
+
+        'exp1': 'Experiencia',
+
+        'exp1.1': 'Beca Icaro como desarrollador full stack',
+        'exp1.2': 'Universidad de Jaén',
+        'exp1.date': 'Marzo 2019 - Octubre 2019',
+        'exp1.4': 'Contrato de 6 meses como desarrollador full stack de' +
+          ' aplicación web para el seguimiento del aprendizaje activo de estudios universitarios.',
+
+        'exp2.1': 'Beca Icaro como desarrollador full stack',
+        'exp2.2': 'Deloitte',
+        'exp2.date': 'Junio 2020 - Actual',
+        'exp2.4': 'Contrato de 6 meses como desarrollador full stack de' +
+          ' aplicación web para el seguimiento del aprendizaje activo de estudios universitarios.',
+
+        'education': 'Formación',
+
+        'edu1.1': 'Grado en Ingeniería Informática',
+        'edu1.2': 'Universidad de Granada',
+        'edu1.date': 'Septiembre 2017 - Actualidad',
+        'edu1.4': 'Nota media: Notable',
+
+        'edu2.1': 'Máster en Ingeniería de Computadores y Redes',
+        'edu2.2': 'Universidad de Granada',
+        'edu2.date': 'Septiembre 2010 - Julio 2011',
+        'edu2.4': 'Nota media: Notable',
+
+        'edu3.1': 'Máster en Ciberseguridad',
+        'edu3.2': 'Universidad de Granada',
+        'edu3.date': 'Octubre 2019 - Julio 2020',
+        'edu3.4': 'Nota media: Notable',
+
+
+        'cert1.1': 'Certificado B1 en inglés de la Escuela Oficial de Idiomas',
+        'cert1.2': '',
+        'cert1.date': 'Curso 2017',
+        'cert1.4': '',
+
+
+        'cert2.1': 'Diseño Profesional de Sitios Web (150H) ',
+        'cert2.2': '',
+        'cert2.date': 'Marzo - Junio 2006',
+        'cert2.4': '',
+
+        'cert3.1': 'Administración y Explotación de Redes TCP/IP bajo Linux (50 H) ',
+        'cert3.2': '',
+        'cert3.date': 'Junio - Julio 2009',
+        'cert3.4': '',
+
+        'cert4.1': 'Curso de desarrollo de Aplicaciones Móviles (40H) ',
+        'cert4.2': '',
+        'cert4.date': 'July 2017',
+        'cert4.4': '',
+
+
+        'sk1': '  Con ganas de aprender y descubrir nuevos conocimientos.',
+        'sk2': '  Hábil ante problemas que puedan plantearse',
+        'sk3': '  Competitivo y creativo',
+        'sk4': '  Gran facilidad para adaptarme a diferentes entornos',
+        'sk5': '  Pentesting',
+        'sk6': '  Mundo de la Cyber',
+
+        'af1': 'Más allá de estar interesado en la ciberseguridad y las nuevas tecnologías, mis aficiones engloban todo tipo de actividades fuera de casa como el deporte en la naturaleza y reuniones sociales de todo tipo. Siendo una persona alegre y extrovertida esto es lo que más disfruto, aunque también me gusta quedarme en casa viendo alguna película o serie que me interese y me haga desconectar del día a día.',
+        'af2': 'Adentrándonos más en el campo de la ciberseguridad, y siendo inquieto y curioso como soy, entre mis aficiones se encuentran investigar más sobre el hacking ético y disfrutar de diferentes congresos tanto online como presenciales a los que he acudido siempre que he tenido la oportunidad, así como investigar sobre el pentesting y la seguridad en redes.',
+
+
+        'pro1.1': 'HERRAMIENTA PARA OCULTACIÓN DE HUELLAS EN PROCESOS DE PENTESTING',
+        'pro1.2': 'Implementación de una herramienta que permite de forma automática y sencilla ejecutar técnicas de ocultación de huellas en un proceso de pentesting.',
+        'pro1.sitio': 'Universidad de Granada',
+        'pro1.date': 'Enero 2020 - Junio 2020',
+        'pro1.4': '',
+        'pro1.5': 'Tecnologías: PowerShell',
+
+
+        'pro2.1': 'APLICACIÓN WEB PARA EL SEGUIMIENTO DEL ' +
+          'APRENDIZAJE ACTIVO EN ASIGNATURAS DE ' +
+          'ESTUDIOS UNIVERSITARIOS',
+        'pro2.2': 'Desarrollo de una aplicación web con el objetivo de realizar un seguimiento  ' +
+          'individualizado del uso de técnicas de aprendizaje activo por parte de los estudiantes ' +
+          'que, voluntariamente, deseen participar en dicho programa en la asignatura ' +
+          'Programación y Administración de Redes.',
+        'pro2.sitio': 'Universidad de Jaén',
+        'pro2.date': 'Noviembre 2018 - Junio 2019',
+        'pro2.4': 'La aplicación ofrecerá dos perfiles ' +
+          'diferentes: estudiante y profesor. El primero podrá acceder a un conjunto de recursos ' +
+          'específicos, de cuyo uso se efectuará el seguimiento. Al segundo se ofrecerá ' +
+          'información tanto detallada como agregada, numérica y visualmente, de dicho uso por ' +
+          'parte de los estudiantes participantes.',
+        'pro2.5': 'Tecnologías: HTML5 | CSS3 | JavaScript | Ajax | MySQL | Bootstrap',
+
+        'pro3.1': 'HERRAMIENTA PARA OCULTACIÓN DE HUELLAS EN PROCESOS DE PENTESTING',
+        'pro3.2': '',
+        'pro3.sitio': 'Universidad de Granada',
+        'pro3.date': 'Enero 2020 - Junio 2020',
+        'pro3.4': '',
+
+        'pro4.1': 'HERRAMIENTA PARA OCULTACIÓN DE HUELLAS EN PROCESOS DE PENTESTING',
+        'pro4.2': 'Implementación de una herramienta que permite de forma automática y sencilla ejecutar técnicas de ocultación de huellas en un proceso de pentesting.',
+        'pro4.sitio': 'Universidad de Granada',
+        'pro4.date': 'Enero 2020 - Junio 2020',
+        'pro4.4': '',
+
+        'pro5.1': 'HERRAMIENTA PARA OCULTACIÓN DE HUELLAS EN PROCESOS DE PENTESTING',
+        'pro5.2': 'Implementación de una herramienta que permite de forma automática y sencilla ejecutar técnicas de ocultación de huellas en un proceso de pentesting.',
+        'pro5.sitio': 'Universidad de Granada',
+        'pro5.date': 'Enero 2020 - Junio 2020',
+        'pro5.4': '',
+
+        'pro6.1': 'HERRAMIENTA PARA OCULTACIÓN DE HUELLAS EN PROCESOS DE PENTESTING',
+        'pro6.2': 'Implementación de una herramienta que permite de forma automática y sencilla ejecutar técnicas de ocultación de huellas en un proceso de pentesting.',
+        'pro6.sitio': 'Universidad de Granada',
+        'pro6.date': 'Enero 2020 - Junio 2020',
+        'pro6.4': ''
+
+      }
+    };
+    // Process translation
+    $(function () {
+      $('.translate').click(function () {
+        var lang = $(this).attr('id');
+
+        $('.lang').each(function (index, item) {
+          $(this).text(arrLang[lang][$(this).attr('key')]);
+        });
+      });
+    });
+  </script>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+  <div class="pull-right">
+
+  </div>
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Juan J. Gª Melgar</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/perfil3.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lang" key="about" href="#about">Sobre mí</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lang" key="exp1" href="#experience">Experiencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lang" key="education" href="#education">Formación</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lang" key="certs1" href="#certs">Certificaciones & Aptitudes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lang" key="interests" href="#interests">Aficiones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lang" key="proyectos" href="#proyects">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a id="es" class="translate"><img src="img/spanish.png"></a>
+          <a id="en" class="translate"><img src="img/english.png"></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Juan J.
+          <span class="text-primary">Gª Melgar</span>
+        </h1>
+        <div class="subheading mb-5">
+          <span class="lang" key="direccion">Granada, España</span>
+          <a href="mailto:tarsot@gmail.com" class="lang" key="correo">tarsot@gmail.com</a>
+        </div>
+
+        <p class="lang" key="aboutText1">¡Bienvenid@, soy Juanjo! No obstante, en La Red, se me conoce como <b>tarsot</b>. 
+
+        </p>
+        <p class="lang" key="aboutText2">
+          De formación diversa, mas mi pasión y dedicación es para el mundo de la informática. Específicamente, en  áreas relacionadas con redes y ciberseguridad, 
+          en las que he tenido la suerte de especializarme.
+        </p>
+
+        <p class="lang" key="aboutText3">
+          El motivo de mostrar esta página, es para dar a conocer mi desarrollo académico y experiencia profesional citando algunos proyectos, en los que estoy 
+          trabajando, así como mis metas y aspiraciones.          
+        </p>
+      
+        <p class="lang" key="aboutText4">
+          Natural de Avilés, Principado de Asturias, aunque actualmente resido en la ciudad de la Alhambra.
+        </p>  
+    
+        <div class="social-icons pt-5">
+          </a> <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/tarsot/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-github"></i>
+          </a>                    
+          <a href="mailto:tarsot@gmail.com">
+            <i class="fa fa-envelope"></i>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+
+      <div class="w-100">
+        <!-- DIV -->
+        <h2 class="mb-5 lang" key="exp1">Experiencia</h2>
+        <div class="row mb-5">
+          <div class="col-sm-2 col-xs-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/UGR-COLOR.jpg" alt="">
+          </div>
+          <div class="col-sm-7 col-xs-7">
+            <h3 class="mb-0 lang" key="exp1.1">Beca Icaro como desarrollador full stack</h3>
+            <div class="subheading mb-3"><span class="lang" key="exp1.2">Universidad de Jaén</span> </div>
+            <p class="lang" key="exp1.4">Contrato de 6 meses como desarrollador full stack de aplicación web
+              para el seguimiento del aprendizaje activo de estudios universitarios.
+
+            </p>
+          </div>
+          <div class="col-sm-3 col-xs-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary lang" key="exp1.date">Marzo 2019 - Octubre 2019</span>
+
+            </div>
+          </div>
+        </div>
+        <!-- DIV -->
+
+        <!-- DIV -->
+        <!--     <div class="row mb-5">
+        <div class="col-sm-2">           
+           <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/deloitteGIF.gif" alt="">
+        </div>
+        <div class="col-sm-7">
+          <h3 class="mb-0">Senior Web Developer</h3>
+          <div class="subheading mb-3">Intelitec Solutions</div>
+          <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+        </div>
+        <div class="col-sm-3">
+          <div class="resume-date text-md-right">
+            <span class="text-primary">March 2013 - Present</span>
+
+          </div>
+        </div>
+      </div>
+      -->
+        <!-- DIV -->
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5 lang" key="education">Formación</h2>
+        <!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/UGR-COLOR.jpg" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang" key="edu3.1">Máster en Ciberseguridad</h3>
+            <div class="subheading mb-3  lang" key="edu3.2">Universidad de Granada</div>
+            <p class=" lang" key="edu3.4">Nota media: Notable</p>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary  lang" key="edu3.date">Octubre 2019 - Julio 2020</span>
+            </div>
+          </div>
+        </div>
+        <!-- DIV -->
+        <!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/UGR-COLOR.jpg" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang" key="edu1.1">Grado en Ingeniería Informática</h3>
+            <div class="subheading mb-3  lang" key="edu1.2">Universidad de Granada</div>
+            <p class=" lang" key="edu1.4">Nota media: Notable</p>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary  lang" key="edu1.date">Septiembre 2017 - Actualidad</span>
+            </div>
+          </div>
+        </div>
+        <!-- DIV -->
+
+        <!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/UGR-COLOR.jpg" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang" key="edu2.1">Máster en Ingeniería de Computadores y Redes</h3>
+            <div class="subheading mb-3  lang" key="edu2.2">Universidad de Granada</div>
+            <p class=" lang" key="edu2.4">Nota media: Notable</p>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary  lang" key="edu2.date">Septiembre 2010 - Julio 2011</span>
+            </div>
+          </div>
+        </div>
+        <!-- DIV -->
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="certs">
+      <div class="w-100">
+        <h2 class="mb-5 lang" key="certs">Certificaciones</h2>
+        <!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/eoi.jpg" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang vertical-center" key="cert1.1">CERTIFICADO B1 EN INGLÉS DE LA ESCUELA OFICIAL DE IDIOMAS</h3>
+            <!--<div class=" mb-3  lang" key="cert1.2"></div>-->
+            <!--<p class=" lang" key="cert1.4">Grado en Ingeniería Informática (English).</p> -->
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary vertical-center  lang" key="cert1.date">Curso 2017</span>
+            </div>
+          </div>
+        </div>
+        <!-- DIV -->
+        <!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/eag.png" alt="">
+          </div>
+          <div class="col-sm-7">           
+                  
+            <h3 class="mb-0 lang vertical-center" key="cert2.1">Diseño Profesional de Sitios Web (150H) </h3>
+            <!--<div class=" mb-3  lang" key="cert1.2"></div>-->
+            <!--<p class=" lang" key="cert1.4">Grado en Ingeniería Informática (English).</p> -->
+
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right mb-3">
+              <span class="text-primary vertical-center  lang" key="cert2.date">Marzo - Junio 2006</span>
+            </div>
+            <div class="resume-date text-md-right">
+              <h4>
+                <!--
+                <a href="https://prnt.sc/ftk7bc">Link</a>
+                -->
+              </h4>
+            </div>
+          </div>
+        </div>
+        <!-- DIV -->
+
+
+        <!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/cea.jpg" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang vertical-center" key="cert3.1">Administración y Explotación de Redes TCP/IP bajo Linux (50 H) </h3>
+            <!--<div class=" mb-3  lang" key="cert1.2"></div>-->
+            <!--<p class=" lang" key="cert1.4">Grado en Ingeniería Informática (English).</p> -->
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right  mb-3">
+              <span class="text-primary vertical-center  lang" key="cert3.date">Junio - Julio 2009</span>
+            </div>
+            <div class="resume-date text-md-right">
+              <h4>
+                <!--
+                <a href="https://prnt.sc/fuajqr">Link</a>
+                -->
+              </h4>
+            </div>
+          </div>
+        </div>
+        <!-- DIV -->
+
+        <!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/google.jpg" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang vertical-center" key="cert4.1">Curso de Desarrollo de
+              APPs Móviles ( 40 H )</h3>
+            <!--<div class=" mb-3  lang" key="cert1.2"></div>-->
+            <!--<p class=" lang" key="cert1.4">Grado en Ingeniería Informática (English).</p> -->
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right  mb-3">
+              <span class="text-primary vertical-center  lang" key="cert4.date">Julio 2017</span>
+            </div>
+            <div class="resume-date text-md-right">
+              <h4>
+                <!--
+                <a href="https://prnt.sc/ftk6en">Link</a>
+                -->
+              </h4>
+            </div>
+          </div>
+        </div>
+        <!-- DIV -->
+
+
+        <h2 class="mb-3 pt-5 ">Aptitudes</h2>
+        <div class="w-100">
+          <div class="subheading mb-3">
+            <ul class="list-inline dev-icons ">
+              <li>
+                <h4 class="text-primary fas fa-smile-beam lang" key="sk1"> Con ganas de aprender y descubrir nuevos
+                  conocimientos.
+                </h4>
+              </li>
+              <li>
+                <h4 class="text-primary fas fa-smile-beam lang" key="sk2"> Hábil ante problemas que puedan plantearse.
+                </h4>
+              </li>
+              <li>
+                <h4 class="text-primary fas fa-smile-beam lang" key="sk3"> Competitivo y creativo </h4>
+              </li>
+              <li>
+                <h4 class="text-primary fas fa-smile-beam lang" key="sk4"> Gran facilidad para adaptarme a diferentes
+                  entornos</h4>
+              </li>
+              <li>
+                <h4 class="text-primary fas fa-smile-beam lang" key="sk5"> Pentesting</h4>
+              </li>
+              <li>
+                <h4 class="text-primary fas fa-smile-beam lang" key="sk6">Mundo de la Cyber </h4>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+      </div>
+
+
+  </div>
+  </section>
+
+  <hr class="m-0">
+
+  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+    <div class="w-100">
+      <h2 class="mb-5 lang" key="interests">Aficiones</h2>
+      <p class="lang" key="af1">Más allá de estar interesado en la ciberseguridad y las nuevas tecnologías,
+        mis aficiones engloban todo tipo de actividades fuera de casa como el deporte en la naturaleza y reuniones
+        sociales de todo tipo. Siendo una persona alegre y extrovertida esto es lo que más disfruto, aunque también me
+        gusta quedarme en casa viendo alguna película o serie que me interese y me haga desconectar del día a día.
+      </p>
+      <p class="mb-0 lang" key="af2">Adentrándonos más en el campo de la ciberseguridad, y siendo inquieto y curioso
+        como soy, entre mis aficiones se encuentran investigar más sobre el hacking ético y disfrutar de diferentes
+        congresos tanto online como presenciales a los que he acudido siempre que he tenido la oportunidad, así como
+        investigar sobre el pentesting y la seguridad en redes.</p>
+    </div>
+  </section>
+
+  <hr class="m-0">
+  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="proyects">
+    <div class="w-100">
+      <h2 class="mb-5 lang" key="proyectos">Proyectos</h2>
+
+      <!-- DIV 1 -->
+      <div class="row ">
+        <div class="col-sm-9">
+          <h3 class="mb-0 lang" key="pro1.1">Herramienta para ocultación de huellas en procesos de
+            pentesting
+          </h3>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="resume-date text-md-right">
+            <span class="text-primary lang" key="pro1.date">Enero 2020 - Junio 2020</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4 class="mb-0 lang subheading" key="pro1.sitio">Universidad de Granada</h4>
+      </div>
+      <div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <h3>
+              <i class="fab fa-windows	"></i>
+            </h3>
+          </li>
+          <li class="list-inline-item">
+            <h3>
+              <i class="fas fa-laptop-code"></i>
+            </h3>
+          </li>
+          <li class="list-inline-item">
+            <h3>
+              <i class="fab fa-sistrix"></i>
+            </h3>
+          </li>
+
+
+        </ul>
+      </div>
+      <p class="lang" key="pro1.2">
+        Implementación de una herramienta que permite de forma automática y sencilla ejecutar
+        técnicas de ocultación de huellas en un proceso de pentesting.
+
+      </p>
+      <p class="lang" key="pro1.4">
+
+      </p>
+      
+      <p class="lang" key="pro1.5">
+        Tecnologías: PowerShell
+      </p>
+      <div class="row mb-5">
+        <div class="col-md-10">
+          <h6>Francisco José Calzado Moya </h6>
+        </div>
+        <div class="col-md-2 text-md-right">
+          <h4>
+            <a href="#">Link</a>
+          </h4>
+        </div>
+      </div>
+      <!-- FIN DEL DIV -->
+
+      <!-- DIV 2 -->
+      <div class="row pt-5 ">
+        <div class="col-sm-9">
+          <h3 class="mb-0 lang" key="pro2.1">APLICACIÓN WEB PARA EL SEGUIMIENTO DEL
+            APRENDIZAJE ACTIVO EN ASIGNATURAS DE
+            ESTUDIOS UNIVERSITARIOS
+          </h3>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="resume-date text-md-right">
+            <span class="text-primary lang" key="pro2.date">Noviembre 2018 - Junio 2019</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4 class="mb-0 lang subheading" key="pro2.sitio">Universidad de Jaén</h4>
+      </div>
+      <div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <h3>
+              <i class="fab fa-html5"></i>
+            </h3>
+          </li>
+          <li class="list-inline-item">
+            <h3>
+              <i class="fab fa-css3-alt"></i>
+            </h3>
+          </li>
+          <li class="list-inline-item">
+            <h3>
+              <i class="fab fa-js-square"></i>
+            </h3>
+          </li>
+          <li class="list-inline-item">
+            <h3>
+              <i class="fas fa-database"></i>
+            </h3>
+          </li>
+          <li class="list-inline-item">
+            <h3>
+              <i class="fab fa-bootstrap"></i>
+            </h3>
+          </li>
+        </ul>
+      </div>
+      <p class="lang" key="pro2.2">
+        Desarrollo de una aplicación web con el objetivo de realizar un seguimiento
+        individualizado del uso de técnicas de aprendizaje activo por parte de los estudiantes
+        que, voluntariamente, deseen participar en dicho programa en la asignatura
+        Programación y Administración de Redes.
+      </p>
+      <p class="lang" key="pro2.4">
+        La aplicación ofrecerá dos perfiles
+        diferentes: estudiante y profesor. El primero podrá acceder a un conjunto de recursos
+        específicos, de cuyo uso se efectuará el seguimiento. Al segundo se ofrecerá
+        información tanto detallada como agregada, numérica y visualmente, de dicho uso por
+        parte de los estudiantes participantes.
+      </p>
+
+      <p class="lang" key="pro2.5">
+        Tecnologías: HTML5 | CSS3 | JavaScript | Ajax | MySQL | Bootstrap
+      </p>
+      <div class="row mb-5">
+        <div class="col-md-10">
+          <h6>Francisco José Calzado Moya </h6>
+        </div>
+        <div class="col-md-2 text-md-right">
+          <h4>
+            <a href="https://drive.google.com/file/d/16TZR2hg1c-i-nsRAuz71jDUfN0RxXUp9/view?usp=sharing">Link</a>
+          </h4>
+        </div>
+      </div>
+      <!-- FIN DEL DIV -->
+
+
+
+  </section>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
+</body>
+
+</html>

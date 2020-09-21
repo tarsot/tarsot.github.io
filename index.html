@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <style>
+    .vertical-center {
+      margin: 0;
+      position: relative;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+  </style>
+  <title>Juan J. Gª Melgar</title>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+  <script type="text/javascript">
+    var arrLang = {
+      'en': {
+        'home': 'Home',
+        'languajes': 'Languajes',
+        'titulo_ingles': 'B1 ENGLISH Oficial Language School Certificate',
+        'aboutText1': 'Welcome, my name is Juanjo! However, on the Internet, I am known as tarsot.',
+        'aboutText2': 'I have a diverse background, but my passion and dedication are to the world of computers. Specifically, in areas related to networks and cyber security, in which I have been lucky enough to specialize.',
+        'aboutText3': 'The reason for showing this page, is to make known my academic development and/or professional experience, citing some projects I am working on, as well as my goals and aspirations.',
+        'aboutText4': ' I was born in Aviles, Principality of Asturias, although I currently reside in the city of the Alhambra.',
+                 
+        'contact': 'Contact Us',
+        'desc': 'This is my description',
+        'about': 'About',
+        'certs': 'Certifications',
+        'skills': 'Skills',
+        'projects': 'Projects',
+        'interests': 'Interests',
+        'direccion': 'Granada, Spain',
+        'correo': 'tarsot@gmail.com',
+
+
+        'exp1': 'Experience',
+
+        'exp1.1': 'Computer Systems Administrator / Psychologist',
+        'exp1.2': 'CRC Granada North',
+        'exp1.date': 'March 2011 - October 2018',
+        'exp1.4': 'I was assume the tasks of implementation, configuration, monitoring, backups and documentation, among others, ' +
+          ' with the aim of preserving security and the proper functioning of systems in production.',
+         'exp1.5': 'Others functions inherents to the assigned posts.',
+
+        'exp2.1': 'Recruitment Technician',
+        'exp2.2': 'Carrefour S.A.',
+        'exp2.date': 'Sept. 2009 - April 2010',
+        'exp2.4': 'Responsible for the areas of administration, training, recruitment and selection, among other delegated functions.',
+        
+        'exp3.1': 'Researcher in teaching innovation project',
+        'exp3.2': 'University of Granada',
+        'exp3.date': 'June 2008 - Dec. 2008',
+        'exp3.4': 'Strategies in university learning/teaching for the acquisition and development of autonomy, cooperation and teamwork.',
+
+        'exp4.1': 'Computer Monitor',
+        'exp4.2': 'Iteritaca S.L.',
+        'exp4.date': 'Sept. 2001 - May 2002',
+        'exp4.4': 'Theoretical and practical training on concepts related to basic computing.',
+		'exp4.5': 'Collective: 8-13 years old.',
+
+	    'exp5.1': 'Computer Systems and Networking Technician',
+        'exp5.2': 'DINSA S.A.',
+        'exp5.date': 'Sept. 1999 - March 2000',
+        'exp5.4': 'Project on year 2000 compatibility in a business network on Microsoft Windows NT Workstation.',
+		'exp5.5': 'General Savings Bank of Granada.',
+
+        'education': 'education',
+
+        'edu1.1': 'Informatic Engineering Degree',
+        'edu1.2': 'University of Granada',
+        'edu1.date': 'September 2017 - Present',
+        'edu1.4': 'Average Grade: Remarkable.',
+
+        'edu2.1': 'Master in Cybersecurity',
+        'edu2.2': 'University of Granada',
+        'edu2.date': 'October 2019 - July 2020',
+        'edu2.4': 'Average Grade: Remarkable.',
+
+		'edu3.1': 'Master in computer engineering and networks',
+        'edu3.2': 'University of Granada',
+        'edu3.date': 'September 2010 - Dec. 2011',
+        'edu3.4': 'Average Grade: Remarkable.',
+        
+        'education2': 'complementary education',
+        
+		'edu4.1': 'Master in Prevention of Occupational Hazards',
+        'edu4.2': 'Laborprex Auditors, S.L.',
+        'edu4.date': 'September 2009 - Dec. 2009',
+        'edu4.4': 'Specialities: Safety at Work, Industrial Hygiene, Ergonomics and Applied Psychosociology',
+        
+		'edu5.1': 'Master in strategic direction and management of human resources',
+        'edu5.2': 'Talentic: business school',
+        'edu5.date': 'October 2010 - July 2009',
+        'edu5.4': 'Average Grade: Excellent.',
+        
+        'edu6.1': 'Psychology degree',
+        'edu6.2': 'University of Granada',
+        'edu6.date': 'September 2003 - Dec. 2008',
+        'edu6.4': 'Average Grade: Remarkable.',
+
+        'cert1.1': 'B1 ENGLISH Oficial Language School Certificate',
+        'cert1.2': '',
+        'cert1.date': 'Course 2017',
+        'cert1.4': '',
+
+        'cert2.1': 'Professional Website Design (150H)',
+        'cert2.2': '',
+        'cert2.date': 'March - June 2006',
+        'cert2.4': '',
+
+        'cert3.1': 'Administration and Operation of TCP/IP Networks under Linux (50H)',
+        'cert3.2': '',
+        'cert3.date': 'Junio - Julio 2009',
+        'cert3.4': '',
+
+        'cert4.1': '',
+        'cert4.2': '',
+        'cert4.date': '',
+        'cert4.4': '',
+
+		'skills': 'Skills',
+
+        'sk1': '  Capacity for self-learning and flexibility in adapting to the environment.',
+        'sk2': '  With initiative and proactive in the resolution of problems that may arise.',
+        'sk3': '  Self-management in stressful situations.',
+        'sk4': '  Ability to work in a team and between different areas.',
+        'sk5': '  Motivation, seriousness and responsibility, with respect to the position assigned.',
+        'sk6': '  Work ethic.',
+
+        'af1': 'Nature',
+        'af2': 'I love to enjoy those little moments in a natural and pleasant place, which abstracts you from the usual routine.',
+		'af3': 'Sport',
+		'af4': 'Essential part, which I try to include several times a week: running, crossfit and any other activity that can complement.',
+		'af5': 'Reading',
+		'af6': 'Any document, related to science and/or technology, that gives me some enthusiasm.',
+		'af7': 'Travel',
+		'af8': 'Whenever possible, an unknown place can give me something different to feel comfortable with. Either in a nearby environment or in another more geographically distant one.',
+		'af9': 'Ciber',
+		'af10': 'On the whole, I am interested in all aspects of security; notably forensic analysis, ethical hacking and malware analysis, among others.',
+		'af11': 'Not forgetting family and friends, which I consider essential for personal support in any project I propose.',
+
+        'pro1.1': 'DOCKER ARM WEB FARM THROUGH OPENVPN',
+        'pro1.2': 'Establishment of a secure network linking two locations in different geographical locations, through' +
+				  'a Site-to-Site VPN gateway, using Docker and based on ARM architecture.',
+        'pro1.sitio': 'University of Granada',
+        'pro1.date': 'October 2019 - July 2020',
+        'pro1.4': '',
+        'pro1.5': 'Technologies: Docker ARM | MySQL | Bootstrap',
+
+        'pro2.1': 'ADAPTIVE COACH FOR VISUAL REHABILITATION',
+        'pro2.2': 'Development and application of a specific training programme for perceptive learning, which helps to improve visual performance in retinitis pigmentosa (RP).',
+        'pro2.sitio': 'University of Granada',
+        'pro2.date': 'September 2010 - Dec. 2011',
+        'pro2.3': 'Based on software that generates light stimuli of different duration and intensity, it displays them on a Head Mounted Display (HMD) device, and records the stimuli that are perceived by the subject.',
+        'pro2.4': 'The programme is applied during a period of three months to a group of people affected by RP, where the results obtain improvements in the visual function of a considerable part of the people who have overcome more than fifty sessions and whose initial state makes training possible.',
+        'pro2.5': 'Technologies: Python | CSS3 | JavaScript | Ajax',
+
+        'pro3.1': '',
+        'pro3.2': '',
+        'pro3.sitio': '',
+        'pro3.date': '',
+        'pro3.4': '',
+
+
+      },
+      'es': {
+        'home': 'Casa',
+        'languajes': "Lenguajes",
+        'titulo_ingles': "Certificado B1 en Inglés. Escuela Oficial de Idiomas de Granada.",
+
+        'aboutText1': '¡Bienvenid@, soy Juanjo! No obstante, en La Red, se me conoce como tarsot.',
+        'aboutText2': 'De formación diversa, mas mi pasión y dedicación son para el mundo de la informática.' +
+          ' Específicamente, en  áreas relacionadas con redes y ciberseguridad, en las que he tenido la suerte de especializarme.',
+        'aboutText3': 'El motivo de mostrar esta página, es para dar a conocer mi desarrollo académico y experiencia profesional' +
+          ' citando algunos proyectos, en los que estoy trabajando, así como mis metas y aspiraciones.',
+        'aboutText4': 'Natural de Avilés, Principado de Asturias, aunque actualmente resido en la ciudad de la Alhambra.',
+        
+        'contact': 'Contacto',
+        'desc': 'Descripción',
+        'about': 'Sobre mí',
+        'certs': 'Certificaciones',
+        'skills': 'Aptitudes',
+
+        'projects': 'Proyectos',
+        'interests': 'Aficiones',
+        'direccion': 'Granada, España ',
+        'correo': 'tarsot@gmail.com',
+
+        'exp1': 'Experiencia',
+
+        'exp1.1': 'Administrador de Sistemas Informáticos / Psicólogo',
+        'exp1.2': 'CRC Granada Norte',
+        'exp1.date': 'Marzo 2011 - Octubre 2018',
+        'exp1.4': 'Asumiendo las tareas de implementación, configuración, monitorización, respaldos y documentación, entre otras, ' +
+          ' con el objetivo de preservar la seguridad y asegurar el correcto funcionamiento de los sistemas en producción',
+        'exp1.5': 'Otras funciones inherentes a los puestos asignados.',
+
+        'exp2.1': 'Técnico de selección de personal',
+        'exp2.2': 'Carrefour S.A.',
+        'exp2.date': 'Sept. 2009 - Abril 2010',
+        'exp2.4': 'Responsable de las áreas de administración, formación, reclutamiento y selección, entre otras funciones delegadas.',
+        
+        'exp3.1': 'Investigador en proyecto de innovación docente',
+        'exp3.2': 'Universidad de Granada',
+        'exp3.date': 'Junio 2008 - Dic. 2008',
+        'exp3.4': 'Estrategias en el aprendizaje/enseñanza universitarios para la adquisición y desarrollo de autonomía, cooperación y trabajo en equipo.',
+
+        'exp4.1': 'Monitor de Informática',
+        'exp4.2': 'Iteritaca S.L.',
+        'exp4.date': 'Sept. 2001 - Mayo 2002',
+        'exp4.4': 'Formación teórico-práctica sobre conceptos relacionados con informática básica.',
+		'exp4.5': 'Colectivo: 8-13 años de edad.',
+		
+	    'exp5.1': 'Técnico en Sistemas Informáticos y Redes',
+        'exp5.2': 'DINSA S.A.',
+        'exp5.date': 'Sept. 1999 - Marzo 2000',
+        'exp5.4': 'Proyecto sobre compatibilidad año 2000, en red empresarial, sobre Microsoft Windows NT Workstation.',
+		'exp5.5': 'Caja General de Ahorros de Granada.',
+
+        'education': 'Formación',
+
+        'edu1.1': 'Grado en Ingeniería Informática',
+        'edu1.2': 'Universidad de Granada',
+        'edu1.date': 'Septiembre 2017 - Actualidad',
+        'edu1.4': 'Nota media: Notable',
+
+        'edu2.1': 'Máster en Ciberseguridad',
+        'edu2.2': 'Universidad de Granada',
+        'edu2.date': 'Octubre 2019 - Julio 2020',
+        'edu2.4': 'Nota media: Notable',
+
+		'edu3.1': 'Máster en Ingeniería de Computadores y Redes',
+        'edu3.2': 'Universidad de Granada',
+        'edu3.date': 'Septiembre 2010 - Dic. 2011',
+        'edu3.4': 'Nota media: Notable',
+
+		'education2': 'Formación complementaria',
+        
+		'edu4.1': 'Máster en Prevención de Riesgos Laborales',
+        'edu4.2': 'Laborprex Auditores, S.L.',
+        'edu4.date': 'Septiembre 2009 - Dic. 2009',
+        'edu4.4': 'Especialidades: Seguridad en el Trabajo, Higiene Industrial, Ergonomía y Psicosociología Aplicada',
+        
+		'edu5.1': 'Máster en Dirección y Gestión Estratégica de RR.HH.',
+        'edu5.2': 'Talentic: Escuela de Negocios',
+        'edu5.date': 'October 2010 - July 2009',
+        'edu5.4': 'Nota media: Sobresaliente.',
+        
+        'edu6.1': 'Licenciado en Psicología',
+        'edu6.2': 'Universidad de Granada',
+        'edu6.date': 'Septiembre 2003 - Dic. 2008',
+        'edu6.4': 'Nota media: Notable.',
+
+        'cert1.1': 'Certificado B1 en inglés de la Escuela Oficial de Idiomas',
+        'cert1.2': '',
+        'cert1.date': 'Curso 2017',
+        'cert1.4': '',
+
+
+        'cert2.1': 'Diseño Profesional de Sitios Web (150H) ',
+        'cert2.2': '',
+        'cert2.date': 'Marzo - Junio 2006',
+        'cert2.4': '',
+
+        'cert3.1': 'Administración y Explotación de Redes TCP/IP bajo Linux (50 H) ',
+        'cert3.2': '',
+        'cert3.date': 'Junio - Julio 2009',
+        'cert3.4': '',
+
+        'cert4.1': '',
+        'cert4.2': '',
+        'cert4.date': '',
+        'cert4.4': '',
+       
+        'sk1': '  Capacidad de auto-aprendizaje y flexibilidad en la adaptación al entorno.',
+        'sk2': '  Con iniciativa y proactivo en la resolución de problemas que puedan plantearse.',
+        'sk3': '  Autogestión en situaciones de estrés.',
+        'sk4': '  Capacidad de trabajo en equipo y entre distintas áreas.',
+        'sk5': '  Motivación, seriedad y responsabilidad, respecto al puesto asignado.',
+        'sk6': '  Ética de trabajo.',
+
+        'af1': 'Naturaleza',
+        'af2': 'Me encanta disfrutar de esos pequeños momentos en un paraje natural y agradable, que te abstraiga de la rutina habitual.',
+		'af3': 'Deporte',
+		'af4': 'Parte indispensable, que procuro incluir varias veces a la semana: running, crossfit y cualquier otra actividad que pueda complementar.',
+		'af5': 'Lectura',
+		'af6': 'Cualquier documento, relacionado con la ciencia y/o tecnología, que me infunda cierto entusiasmo.',
+		'af7': 'Viajar',
+		'af8': 'Cuando es posible, un lugar desconocido puede aportarme algo diferente con el que sentirme a gusto. Bien, en un entorno cercano, bien en otro más alejado geográficamente.',
+		'af9': 'Ciber',
+		'af10': 'En general, me interesan todos los aspectos relacionados con la seguridad; en particular, el análisis forense, hacking ético y análisis de malware, entre otras.',
+		'af11': 'Sin olvidar la familia y amistades, que considero esenciales para el apoyo personal en cualquier proyecto que me proponga.',
+
+        'pro1.1': 'GRANJA WEB DOCKER ARM A TRAVÉS DE OPENVPN',
+        'pro1.2': 'Establecimiento de una red segura uniendo dos lugares situados en localizaciones geográficas distintas, a través de una ' +
+				  'pasarela Site-to-Site VPN, mediante el uso de Docker y basado en arquitectura ARM.',
+        'pro1.sitio': 'Universidad de Granada',
+        'pro1.date': 'Octubre 2019 - Julio 2020',
+        'pro1.4': '',
+        'pro1.5': 'Tecnologías: Docker ARM | MySQL | Bootstrap',
+
+
+        'pro2.1': 'ENTRENADOR ADAPTATIVO PARA REHABILITACIÓN VISUAL',
+        'pro2.2': 'Desarrollo y aplicación de un programa específico de entrenamiento para el aprendizaje perceptivo, que ayuda a mejorar el rendimiento visual en la retinosis pigmentaria (RP). ',
+        'pro2.sitio': 'Universidad de Granada',
+        'pro2.date': 'Septiembre 2010 - Dic. 2011',
+        'pro2.3': 'Basado en un software que genera estímulos luminosos de distinta duración e intensidad, los visualiza en un dispositivo Head Mounted Display (HMD), y registra los estímulos que son percibidos por el sujeto. ',
+        'pro2.4': 'El programa, se aplica durante un periodo de tres meses a un grupo de afectados de RP, donde los resultados obtienen mejoras en la función visual de una parte considerable de las personas que han superado más de cincuenta sesiones y cuyo estado inicial posibilita el entrenamiento.',
+        'pro2.5': 'Tecnologías: Python | CSS3 | JavaScript | Ajax',
+
+        'pro3.1': '',
+        'pro3.2': '',
+        'pro3.sitio': '',
+        'pro3.date': '',
+        'pro3.4': '',
+
+        
+      }
+    };
+    // Process translation
+    $(function () {
+      $('.translate').click(function () {
+        var lang = $(this).attr('id');
+
+        $('.lang').each(function (index, item) {
+          $(this).text(arrLang[lang][$(this).attr('key')]);
+        });
+      });
+    });
+  </script>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+  <div class="pull-right">
+
+  </div>
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Juan J. Gª Melgar</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/perfil3.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lang" key="about" href="#about">Sobre mí</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lang" key="exp1" href="#experience">Experiencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lang" key="education" href="#education">Formación</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lang" key="skills" href="#skills">Aptitudes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lang" key="interests" href="#interests">Aficiones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lang" key="projects" href="#projects">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a id="es" class="translate"><img src="img/spanish.png"></a>
+          <a id="en" class="translate"><img src="img/english.png"></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Juan J.
+          <span class="text-primary">Gª Melgar</span>
+        </h1>
+        <div class="subheading mb-5">
+          <span class="lang" key="direccion">Granada, España</span>
+          <a href="mailto:tarsot@gmail.com" class="lang" key="correo">tarsot@gmail.com</a>
+        </div>
+
+        <p class="lang" key="aboutText1">¡Bienvenid@, soy Juanjo! No obstante, en La Red, se me conoce como <b>tarsot</b>. 
+
+        </p>
+        <p class="lang" key="aboutText2">
+          De formación diversa, mas mi pasión y dedicación son para el mundo de la informática. Específicamente, en  áreas relacionadas con redes y ciberseguridad, 
+          en las que he tenido la suerte de especializarme.
+        </p>
+
+        <p class="lang" key="aboutText3">
+          El motivo de mostrar esta página, es para dar a conocer mi desarrollo académico y experiencia profesional citando algunos proyectos, en los que estoy 
+          trabajando, así como mis metas y aspiraciones.          
+        </p>
+      
+        <p class="lang" key="aboutText4">
+          Natural de Avilés, Principado de Asturias, aunque actualmente resido en la ciudad de la Alhambra.
+        </p>  
+    
+        <div class="social-icons pt-5">
+          </a> <a href="https://www.instagram.com/tarsot_lab/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/tarsot/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://twitter.com/tarsot_lab" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.facebook.com/tarsot" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-github" target="_blank"></i>
+          </a>
+          <a href="https://es.stackoverflow.com/users/192436/tarsot-lab" target="_blank">                 
+			<i class="fab fa-stack-overflow"></i>
+		  </a>
+          <a href="mailto:tarsot@gmail.com">
+            <i class="fa fa-envelope"></i>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+        <!-- DIV -->
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+
+        <h2 class="mb-5 lang" key="exp1">Experiencia</h2>
+        <div class="row mb-5">
+          <div class="col-sm-2 col-xs-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/crc.png" alt="">
+          </div>
+          <div class="col-sm-7 col-xs-7">
+            <h3 class="mb-0 lang" key="exp1.1">Administrador de Sistemas Informáticos / Psicólogo</h3>
+            <div class="subheading mb-3"><span class="lang" key="exp1.2">CRC Granada Norte</span> </div>
+            <p class="lang" key="exp1.4">Asumiendo las tareas de implementación, configuración, monitorización, respaldos y documentación, entre otras,
+            con el objetivo de preservar la seguridad <br> y el correcto funcionamiento de los sistemas en producción. 
+            </br>
+            <p class="lang" key="exp1.5">Otras funciones inherentes a los puestos asignados.</p>
+            </p>
+          </div>
+          <div class="col-sm-3 col-xs-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary lang" key="exp1.date">Marzo 2011 - Octubre 2018</span>
+
+            </div>
+          </div>
+        </div>
+        
+	<!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/carrefour.jpg" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang" key="exp2.1">Técnico de selección de personal</h3>
+            <div class="subheading mb-3  lang" key="exp2.2">Carrefour S.A.</div>
+            <p class=" lang" key="exp2.4">Responsable de las áreas de administración, formación, reclutamiento y selección, entre otras funciones delegadas.</p>
+            <p class="lang" key="exp2.5"></p>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary  lang" key="exp2.date">Sept. 2009 - Abril 2010</span>
+            </div>
+          </div>
+        </div>
+    <!-- DIV -->
+   
+	<!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/UGR-COLOR.jpg" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang" key="exp3.1">Investigador en proyecto de innovación docente</h3>
+            <div class="subheading mb-3  lang" key="exp3.2">Universidad de Granada</div>
+            <p class=" lang" key="exp3.4">Estrategias en el aprendizaje/enseñanza universitarios para la adquisición y desarrollo de autonomía, cooperación y trabajo en equipo.</p>
+            <p class="lang" key="exp3.5"></p>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary  lang" key="exp3.date">Junio 2008 - Dic. 2008</span>
+            </div>
+          </div>
+        </div>
+    <!-- DIV -->   
+
+	<!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/itaca.png" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang" key="exp4.1">Monitor de Informática</h3>
+            <div class="subheading mb-3  lang" key="exp4.2">Iteritaca S.L.</div>
+            <p class=" lang" key="exp4.4">Formación teórico-práctica sobre conceptos relacionados con informática básica.</p>
+            <p class="lang" key="exp4.5">Colectivo: 8-13 años de edad.</p>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary  lang" key="exp4.date">Sept. 2001 - Mayo 2002</span>
+            </div>
+          </div>
+        </div>
+    <!-- DIV -->
+
+	<!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/dinsa.png" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang" key="exp5.1">Técnico en Sistemas Informáticos y Redes</h3>
+            <div class="subheading mb-3  lang" key="exp5.2">DINSA S.A.</div>
+            <p class=" lang" key="exp5.4">Proyecto sobre compatibilidad año 2000, en red empresarial, sobre Microsoft Windows NT Workstation.</p>
+            <p class="lang" key="exp5.5">Caja General de Ahorros de Granada.</p>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary  lang" key="exp5.date">Sept. 1999 - Marzo 2000</span>
+            </div>
+          </div>
+        </div>
+    <!-- DIV -->
+   
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5 lang" key="education">Formación</h2>
+        <!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/UGR-COLOR.jpg" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang" key="edu1.1">Grado en Ingeniería Informática </h3>
+            <div class="subheading mb-3  lang" key="edu1.2">Universidad de Granada</div>
+            <p class=" lang" key="edu1.4">Nota media: Notable</p>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary  lang" key="edu1.date">Septiembre 2017 - Actualidad</span>
+            </div>
+          </div>
+        </div>
+        <!-- DIV -->
+        <!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/UGR-COLOR.jpg" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang" key="edu2.1">Máster en Ciberseguridad</h3>
+            <div class="subheading mb-3  lang" key="edu2.2">Universidad de Granada</div>
+            <p class=" lang" key="edu2.4">Nota media: Notable</p>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary  lang" key="edu2.date">Octubre 2019 - Julio 2020</span>
+            </div>
+          </div>
+        </div>
+        <!-- DIV -->
+
+        <!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/UGR-COLOR.jpg" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang" key="edu3.1">Máster en Ingeniería de Computadores y Redes</h3>
+            <div class="subheading mb-3  lang" key="edu3.2">Universidad de Granada</div>
+            <p class=" lang" key="edu3.4">Nota media: Notable</p>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary  lang" key="edu3.date">Septiembre 2010 - Dic. 2011</span>
+            </div>
+          </div>
+        </div>
+        <!-- DIV -->          
+          <h2 class="mb-5 lang" key="education2">Formación complementaria</h2>
+		<!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/laborprex.jpeg" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang" key="edu4.1">Máster en Prevención de Riesgos Laborales</h3>
+            <div class="subheading mb-3  lang" key="edu4.2">Laborprex Auditores, S.L.</div>
+            <p class=" lang" key="edu4.4">Especialidades: Seguridad en el Trabajo, Higiene Industrial, Ergonomía y Psicosociología Aplicada</p>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary  lang" key="edu4.date">Septiembre 2009 - Dic. 2009</span>
+            </div>
+          </div>
+        </div>
+        <!-- DIV -->
+        <!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/talentic.png" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang" key="edu5.1">Máster en Dirección y Gestión Estratégica de RR.HH.</h3>
+            <div class="subheading mb-3  lang" key="edu5.2">Talentic: Escuela de Negocios</div>
+            <p class=" lang" key="edu5.4">Nota media: Sobresaliente</p>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary  lang" key="edu5.date">Octubre 2008 - Julio 2009</span>
+            </div>
+          </div>
+        </div>
+        <!-- DIV -->          
+        <!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/UGR-COLOR.jpg" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang" key="edu6.1">Licenciado en Psicología</h3>
+            <div class="subheading mb-3  lang" key="edu6.2">Universidad de Granada</div>
+            <p class=" lang" key="edu6.4">Nota media: Notable</p>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary  lang" key="edu6.date">Septiembre 2003 - Dic. 2008</span>
+            </div>
+          </div>
+        </div>
+        <!-- DIV -->          
+          
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="certs">
+      <div class="w-100">
+        <h2 class="mb-5 lang" key="certs">Certificaciones</h2>
+        <!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/eoi.jpg" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang vertical-center" key="cert1.1">CERTIFICADO B1 EN INGLÉS DE LA ESCUELA OFICIAL DE IDIOMAS</h3>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary vertical-center  lang" key="cert1.date">Curso 2017</span>
+            </div>
+          </div>
+        </div>
+        <!-- DIV -->
+        <!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/eag.png" alt="">
+          </div>
+          <div class="col-sm-7">           
+                  
+            <h3 class="mb-0 lang vertical-center" key="cert2.1">Diseño Profesional de Sitios Web (150H) </h3>
+       
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right mb-3">
+              <span class="text-primary vertical-center  lang" key="cert2.date">Marzo - Junio 2006</span>
+            </div>
+            <div class="resume-date text-md-right">
+              <h4>
+                <!--
+                <a href="https://prnt.sc/ftk7bc">Link</a>
+                -->
+              </h4>
+            </div>
+          </div>
+        </div>
+        <!-- DIV -->
+
+
+        <!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/cea.jpg" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang vertical-center" key="cert3.1">Administración y Explotación de Redes TCP/IP bajo Linux (50 H) </h3>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right  mb-3">
+              <span class="text-primary vertical-center  lang" key="cert3.date">Junio - Julio 2009</span>
+            </div>
+            <div class="resume-date text-md-right">
+              <h4>
+                <!--
+                <a href="https://prnt.sc/fuajqr">Link</a>
+                -->
+              </h4>
+            </div>
+          </div>
+        </div>
+        <!-- DIV -->
+
+        <!-- DIV -->
+	<!--
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/google.jpg" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang vertical-center" key="cert4.1">Curso de Desarrollo de
+              APPs Móviles ( 40 H )</h3>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right  mb-3">
+              <span class="text-primary vertical-center  lang" key="cert4.date">Julio 2017</span>
+            </div>
+            <div class="resume-date text-md-right">
+              <h4>
+                <!--
+                <a href="https://prnt.sc/ftk6en">Link</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+    -->
+        <!-- DIV -->
+	
+    <hr class="m-0">
+    
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="skills">
+      <div class="w-100">
+		<h2 class="mb-5 lang" key="skills">Aptitudes</h2> 
+          <div class="subheading mb-3">
+            <ul class="list-inline dev-icons ">
+              <li>
+                <h4 class="text-primary fas fa-smile-beam lang" key="sk1"> Capacidad de auto-aprendizaje y flexibilidad en la adaptación al entorno.
+                </h4>
+              </li>
+              <li>
+                <h4 class="text-primary fas fa-smile-beam lang" key="sk2"> Con iniciativa y proactivo en la resolución de problemas que puedan plantearse.
+                </h4>
+              </li>
+              <li>
+                <h4 class="text-primary fas fa-smile-beam lang" key="sk3"> Autogestión en situaciones de estrés. </h4>
+              </li>
+              <li>
+                <h4 class="text-primary fas fa-smile-beam lang" key="sk4"> Capacidad de trabajo en equipo y entre distintas áreas.
+                </h4>
+              </li>
+              <li>
+                <h4 class="text-primary fas fa-smile-beam lang" key="sk5"> Motivación, seriedad y responsabilidad, respecto al puesto asignado.</h4>
+              </li>
+              <li>
+                <h4 class="text-primary fas fa-smile-beam lang" key="sk6"> Ética de trabajo. </h4>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+      </div>
+
+
+  </div>
+  </section>
+
+  <hr class="m-0">
+
+  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+    <div class="w-100">
+      <h2 class="mb-5 lang" key="interests">Aficiones</h2>
+      <p class="lang" key="af1">Naturaleza
+	  <p class="lang" key="af2">Me encanta disfrutar de esos pequeños momentos en un paraje natural y agradable, que te abstraiga de la rutina habitual.</p>
+	  <p class="lang" key="af3">Deporte
+	  <p class="lang" key="af4">Parte indispensable, que procuro incluir varias veces a la semana: running, crossfit y cualquier otra actividad que pueda complementar.</p>
+	  <p class="lang" key="af5">Lectura
+	  <p class="lang" key="af6">Cualquier documento, relacionado con la ciencia y/o tecnología, que me infunda cierto entusiasmo.</p>
+      <p class="lang" key="af7">Viajar
+	  <p class="lang" key="af8">Cuando es posible, un lugar desconocido puede aportarme algo diferente con el que sentirme a gusto. Bien, en un entorno cercano, bien en otro más alejado geográficamente.</p>
+      <p class="lang" key="af9">Ciber
+	  <p class="lang" key="af10">En general, me interesan todos los aspectos relacionados con la seguridad; en particular, el análisis forense, hacking ético y análisis de malware, entre otras.</p>
+      <p class="lang" key="af11">Sin olvidar la familia y amistades, que considero esenciales para el apoyo personal en cualquier proyecto que me proponga.</p>
+    </div>
+  </section>
+
+  <hr class="m-0">
+  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+    <div class="w-100">
+      <h2 class="mb-5 lang" key="projects">Proyectos</h2>
+
+      <!-- DIV 1 -->
+      <div class="row ">
+        <div class="col-sm-9">
+          <h3 class="mb-0 lang" key="pro1.1">Granja Web Docker ARM a través de OpenVPN
+            
+          </h3>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="resume-date text-md-right">
+            <span class="text-primary lang" key="pro1.date">Octubre 2019 - Julio 2020</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4 class="mb-0 lang subheading" key="pro1.sitio">Universidad de Granada</h4>
+      </div>
+      <div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <h3>
+              <i class="fab fa-docker"></i>
+            </h3>
+          </li>
+          <li class="list-inline-item">
+            <h3>
+              <i class="fab fa-raspberry-pi"></i>
+            </h3>
+          </li>
+          <li class="list-inline-item">
+            <h3>
+              <i class="fab fa-linux"></i>
+            </h3>
+          </li>
+          <li class="list-inline-item">
+            <h3>
+              <i class="fas fa-code"></i>
+            </h3>
+          </li>
+          <li class="list-inline-item">
+            <h3>
+              <i class="fas fa-database"></i>
+            </h3>
+          </li>
+          <li class="list-inline-item">
+            <h3>
+              <i class="fab fa-bootstrap"></i>
+            </h3>
+		  </li>
+        </ul>
+      </div>
+      <p class="lang" key="pro1.2">
+        Establecimiento de una red segura uniendo dos lugares situados en localizaciones geográficas distintas, a través de una <br>
+        pasarela Site-to-Site VPN, mediante el uso de Docker y basado en arquitectura ARM.
+	  </br>
+      </p>
+      <p class="lang" key="pro1.4">
+
+      </p>
+      
+      <p class="lang" key="pro1.5">
+        Tecnologías: Docker ARM | MySQL | Bootstrap
+      </p>
+      <div class="row mb-5">
+        <div class="col-md-10">
+          <h6>Juan J. Gª Melgar </h6>
+        </div>
+        <div class="col-md-2 text-md-right">
+          <h4>
+            <a href="https://drive.google.com/file/d/1a7Lo3s63yS82dgoqst1Wm9JPMiOI_a53/view?usp=sharing" target="_blank">Link</a>
+          </h4>
+        </div>
+      </div>
+      <!-- FIN DEL DIV -->
+
+      <!-- DIV 2 -->
+      <div class="row pt-5 ">
+        <div class="col-sm-9">
+          <h3 class="mb-0 lang" key="pro2.1">Entrenador adaptativo para rehabilitación visual
+          </h3>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="resume-date text-md-right">
+            <span class="text-primary lang" key="pro2.date">Septiembre 2010 - Dic. 2011</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4 class="mb-0 lang subheading" key="pro2.sitio">Universidad de Granada</h4>
+      </div>
+      <div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <h3>
+              <i class="fab fa-python"></i>
+            </h3>
+          </li>
+		  
+		 <li class="list-inline-item">
+		  <h3>
+			  <i class="fab fa-css3"></i>
+		  </h3>
+		  </li>
+		  
+          <li class="list-inline-item">
+          <h3>
+              <i class="fas fa-file-code"></i>
+          </h3>
+          </li>
+          
+          <li class="list-inline-item">
+           <h3>
+			 <i class="fab fa-js-square"></i>
+            </h3>
+          </li>
+          
+          </ul>
+      </div>
+      <p class="lang" key="pro2.2">
+        Desarrollo y aplicación de un programa específico de entrenamiento para el aprendizaje perceptivo, que ayuda a mejorar el rendimiento visual en la retinosis pigmentaria (RP). 
+      </p>
+      <p class="lang" key="pro2.3">
+        Basado en un software que genera estímulos luminosos de distinta duración e intensidad, los visualiza en un dispositivo Head Mounted Display (HMD), y registra los estímulos que 
+        son percibidos por el sujeto. 
+      </p>
+      <p class="lang" key="pro2.4">
+        El programa, se aplica durante un periodo de tres meses a un grupo de afectados de RP, donde los resultados obtienen mejoras en la función visual de una parte considerable de las personas que han superado más de cincuenta sesiones y cuyo estado inicial posibilita el entrenamiento.
+      </p>
+
+      <p class="lang" key="pro2.5">
+        Tecnologías: Python | CSS3 | JavaScript | Ajax 
+      </p>
+      <div class="row mb-5">
+        <div class="col-md-10">
+          <h6>Juan J. Gª Melgar </h6>
+        </div>
+        <div class="col-md-2 text-md-right">
+          <h4>
+            <a href="https://masteres.ugr.es/master-icr/pages/noticias" target="_blank">Link</a>
+          </h4>
+        </div>
+      </div>
+      <!-- FIN DEL DIV -->
+
+
+
+  </section>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
+</body>
+
+</html>
