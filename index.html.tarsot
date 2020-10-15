@@ -40,6 +40,7 @@
         'direccion': 'Granada, Spain',
         'correo': 'tarsot@gmail.com',
 
+
         'exp1': 'Experience',
 
         'exp1.1': 'Computer Systems Administrator / Psychologist',
@@ -369,10 +370,10 @@
           <a class="nav-link js-scroll-trigger lang" key="about" href="#about">Sobre mí</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger lang" key="education" href="#education">Formación</a>
+          <a class="nav-link js-scroll-trigger lang" key="exp1" href="#experience">Experiencia</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger lang" key="exp1" href="#experience">Experiencia</a>
+          <a class="nav-link js-scroll-trigger lang" key="education" href="#education">Formación</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger lang" key="skills" href="#skills">Aptitudes</a>
@@ -457,7 +458,113 @@
       </div>
     </section>
 
-<hr class="m-0">
+        <!-- DIV -->
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+
+        <h2 class="mb-5 lang" key="exp1">Experiencia</h2>
+        <div class="row mb-5">
+          <div class="col-sm-2 col-xs-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/crc.png" alt="">
+          </div>
+          <div class="col-sm-7 col-xs-7">
+            <h3 class="mb-0 lang" key="exp1.1">Administrador de Sistemas Informáticos / Psicólogo</h3>
+            <div class="subheading mb-3"><span class="lang" key="exp1.2">CRC Granada Norte</span> </div>
+            <p class="lang" key="exp1.4">Asumiendo las tareas de implementación, configuración, monitorización, respaldos y documentación, entre otras,
+            con el objetivo de preservar la seguridad <br> y el correcto funcionamiento de los sistemas en producción. 
+            </br>
+            <p class="lang" key="exp1.5">Otras funciones inherentes a los puestos asignados.</p>
+            </p>
+          </div>
+          <div class="col-sm-3 col-xs-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary lang" key="exp1.date">Marzo 2011 - Octubre 2018</span>
+
+            </div>
+          </div>
+        </div>
+        
+	<!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/carrefour.jpg" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang" key="exp2.1">Técnico de selección de personal</h3>
+            <div class="subheading mb-3  lang" key="exp2.2">Carrefour S.A.</div>
+            <p class=" lang" key="exp2.4">Responsable de las áreas de administración, formación, reclutamiento y selección, entre otras funciones delegadas.</p>
+            <p class="lang" key="exp2.5"></p>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary  lang" key="exp2.date">Sept. 2009 - Abril 2010</span>
+            </div>
+          </div>
+        </div>
+    <!-- DIV -->
+   
+	<!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/UGR-COLOR.jpg" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang" key="exp3.1">Investigador en proyecto de innovación docente</h3>
+            <div class="subheading mb-3  lang" key="exp3.2">Universidad de Granada</div>
+            <p class=" lang" key="exp3.4">Estrategias en el aprendizaje/enseñanza universitarios para la adquisición y desarrollo de autonomía, cooperación y trabajo en equipo.</p>
+            <p class="lang" key="exp3.5"></p>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary  lang" key="exp3.date">Junio 2008 - Dic. 2008</span>
+            </div>
+          </div>
+        </div>
+    <!-- DIV -->   
+
+	<!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/itaca.png" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang" key="exp4.1">Monitor de Informática</h3>
+            <div class="subheading mb-3  lang" key="exp4.2">Iteritaca S.L.</div>
+            <p class=" lang" key="exp4.4">Formación teórico-práctica sobre conceptos relacionados con informática básica.</p>
+            <p class="lang" key="exp4.5">Colectivo: 8-13 años de edad.</p>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary  lang" key="exp4.date">Sept. 2001 - Mayo 2002</span>
+            </div>
+          </div>
+        </div>
+    <!-- DIV -->
+
+	<!-- DIV -->
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/dinsa.png" alt="">
+          </div>
+          <div class="col-sm-7">
+            <h3 class="mb-0 lang" key="exp5.1">Técnico en Sistemas Informáticos y Redes</h3>
+            <div class="subheading mb-3  lang" key="exp5.2">DINSA S.A.</div>
+            <p class=" lang" key="exp5.4">Proyecto sobre compatibilidad año 2000, en red empresarial, sobre Microsoft Windows NT Workstation.</p>
+            <p class="lang" key="exp5.5">Caja General de Ahorros de Granada.</p>
+          </div>
+          <div class="col-sm-3">
+            <div class="resume-date text-md-right">
+              <span class="text-primary  lang" key="exp5.date">Sept. 1999 - Marzo 2000</span>
+            </div>
+          </div>
+        </div>
+    <!-- DIV -->
+   
+    </section>
+
+    <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
@@ -565,112 +672,9 @@
             </div>
           </div>
         </div>
-        <!-- DIV -->         
-
-        <!-- DIV -->
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-
-        <h2 class="mb-5 lang" key="exp1">Experiencia</h2>
-        <div class="row mb-5">
-          <div class="col-sm-2 col-xs-2">
-            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/crc.png" alt="">
-          </div>
-          <div class="col-sm-7 col-xs-7">
-            <h3 class="mb-0 lang" key="exp1.1">Administrador de Sistemas Informáticos / Psicólogo</h3>
-            <div class="subheading mb-3"><span class="lang" key="exp1.2">CRC Granada Norte</span> </div>
-            <p class="lang" key="exp1.4">Asumiendo las tareas de implementación, configuración, monitorización, respaldos y documentación, entre otras,
-            con el objetivo de preservar la seguridad <br> y el correcto funcionamiento de los sistemas en producción. 
-            </br>
-            <p class="lang" key="exp1.5">Otras funciones inherentes a los puestos asignados.</p>
-            </p>
-          </div>
-          <div class="col-sm-3 col-xs-3">
-            <div class="resume-date text-md-right">
-              <span class="text-primary lang" key="exp1.date">Marzo 2011 - Octubre 2018</span>
-
-            </div>
-          </div>
-        </div>
-        
-	<!-- DIV -->
-        <div class="row mb-5">
-          <div class="col-sm-2">
-            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/carrefour.jpg" alt="">
-          </div>
-          <div class="col-sm-7">
-            <h3 class="mb-0 lang" key="exp2.1">Técnico de selección de personal</h3>
-            <div class="subheading mb-3  lang" key="exp2.2">Carrefour S.A.</div>
-            <p class=" lang" key="exp2.4">Responsable de las áreas de administración, formación, reclutamiento y selección, entre otras funciones delegadas.</p>
-            <p class="lang" key="exp2.5"></p>
-          </div>
-          <div class="col-sm-3">
-            <div class="resume-date text-md-right">
-              <span class="text-primary  lang" key="exp2.date">Sept. 2009 - Abril 2010</span>
-            </div>
-          </div>
-        </div>
-    <!-- DIV -->
-   
-	<!-- DIV -->
-        <div class="row mb-5">
-          <div class="col-sm-2">
-            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/UGR-COLOR.jpg" alt="">
-          </div>
-          <div class="col-sm-7">
-            <h3 class="mb-0 lang" key="exp3.1">Investigador en proyecto de innovación docente</h3>
-            <div class="subheading mb-3  lang" key="exp3.2">Universidad de Granada</div>
-            <p class=" lang" key="exp3.4">Estrategias en el aprendizaje/enseñanza universitarios para la adquisición y desarrollo de autonomía, cooperación y trabajo en equipo.</p>
-            <p class="lang" key="exp3.5"></p>
-          </div>
-          <div class="col-sm-3">
-            <div class="resume-date text-md-right">
-              <span class="text-primary  lang" key="exp3.date">Junio 2008 - Dic. 2008</span>
-            </div>
-          </div>
-        </div>
-    <!-- DIV -->   
-
-	<!-- DIV -->
-        <div class="row mb-5">
-          <div class="col-sm-2">
-            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/itaca.png" alt="">
-          </div>
-          <div class="col-sm-7">
-            <h3 class="mb-0 lang" key="exp4.1">Monitor de Informática</h3>
-            <div class="subheading mb-3  lang" key="exp4.2">Iteritaca S.L.</div>
-            <p class=" lang" key="exp4.4">Formación teórico-práctica sobre conceptos relacionados con informática básica.</p>
-            <p class="lang" key="exp4.5">Colectivo: 8-13 años de edad.</p>
-          </div>
-          <div class="col-sm-3">
-            <div class="resume-date text-md-right">
-              <span class="text-primary  lang" key="exp4.date">Sept. 2001 - Mayo 2002</span>
-            </div>
-          </div>
-        </div>
-    <!-- DIV -->
-
-	<!-- DIV -->
-        <div class="row mb-5">
-          <div class="col-sm-2">
-            <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/dinsa.png" alt="">
-          </div>
-          <div class="col-sm-7">
-            <h3 class="mb-0 lang" key="exp5.1">Técnico en Sistemas Informáticos y Redes</h3>
-            <div class="subheading mb-3  lang" key="exp5.2">DINSA S.A.</div>
-            <p class=" lang" key="exp5.4">Proyecto sobre compatibilidad año 2000, en red empresarial, sobre Microsoft Windows NT Workstation.</p>
-            <p class="lang" key="exp5.5">Caja General de Ahorros de Granada.</p>
-          </div>
-          <div class="col-sm-3">
-            <div class="resume-date text-md-right">
-              <span class="text-primary  lang" key="exp5.date">Sept. 1999 - Marzo 2000</span>
-            </div>
-          </div>
-        </div>
-    <!-- DIV -->
-   
+        <!-- DIV -->          
+          
+      </div>
     </section>
 
     <hr class="m-0">
